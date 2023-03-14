@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -z /etc/passwd
+cut --delimiter=: /etc/passwd
